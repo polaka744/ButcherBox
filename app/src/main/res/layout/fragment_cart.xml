@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Frgments.CartFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardElevation="7dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/todays_deal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:text="Houghton’s Family Butchers serving the  Houy !"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/green"
+                    android:text="Net Wt :  "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.5 KG"
+                    android:layout_toEndOf="@+id/mrp"
+                    android:textColor="@color/green"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mrp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/primary"
+                    android:layout_centerVertical="true"
+                    android:text="PRICE : "/>
+
+
+                <TextView
+                    android:id="@+id/pr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9 377"
+                    android:layout_toEndOf="@+id/mrp1"
+                    android:textColor="@color/primary"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9 477"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/pr1"
+                    android:textColor="@color/grey"
+                    android:background="@drawable/cross"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="PRICE : "/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="\u20B9 377"-->
+<!--                    android:layout_toEndOf="@+id/mrp1"-->
+<!--                    android:textColor="@color/primary"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:textStyle="bold" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@color/cardview_dark_background"
+                android:text="REMOVE"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardElevation="7dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/chicken" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:padding="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:text="Houghton’s Family Butchers serving the  Houy !"/>
+
+
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/green"
+                    android:text="Net Wt :  "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.5 KG"
+                    android:layout_toEndOf="@+id/mrp"
+                    android:textColor="@color/green"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mrp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/primary"
+                    android:layout_centerVertical="true"
+                    android:text="PRICE : "/>
+
+
+                <TextView
+                    android:id="@+id/pr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9 377"
+                    android:layout_toEndOf="@+id/mrp2"
+                    android:textColor="@color/primary"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9 477"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/pr2"
+                    android:textColor="@color/grey"
+                    android:background="@drawable/cross"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="PRICE : "/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="\u20B9 377"-->
+<!--                    android:layout_toEndOf="@+id/mrp1"-->
+<!--                    android:textColor="@color/primary"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:textStyle="bold" />-->
+
+
+<!--            </LinearLayout>-->
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@color/cardview_dark_background"
+                    android:text="REMOVE"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardElevation="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="SUBTOTAL  "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u20B9 377"
+                        android:layout_toEndOf="@+id/mrp1"
+                        android:layout_gravity="end"
+                        android:textColor="@color/black"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="DISCOUNT  "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10%"
+                        android:layout_toEndOf="@+id/mrp1"
+                        android:layout_gravity="end"
+                        android:textColor="@color/black"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="SHIPPING  "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u20B9 30"
+                        android:layout_toEndOf="@+id/mrp1"
+                        android:layout_gravity="end"
+                        android:textColor="@color/black"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/green"
+                        android:text="TOTAL  "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u20B9 407"
+                        android:layout_toEndOf="@+id/mrp1"
+                        android:layout_gravity="end"
+                        android:textColor="@color/green"
+                        android:layout_centerVertical="true"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/round_bg"
+                android:text="BUY"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
